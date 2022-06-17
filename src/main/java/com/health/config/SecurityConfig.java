@@ -49,6 +49,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 			"/feedcustomerdat",
 			"/feedbackForUser",
 			"/login",
+			"/verifyAccount",
 			"/tutorials",
 			"/s/**",
 			"/loadByCategoryTuturial",
@@ -87,7 +88,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 			"/cdContentInfo/**",
 			"/getContributorByTutLanUser/**",
 			"/showConsultant/**",
-			"/showLanguages/**"
+			"/showLanguages/**",
+			"/verify",
+			"/register_success",
+			"/process_register"
 	};
 
 	/**
